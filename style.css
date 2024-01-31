@@ -1,0 +1,5 @@
+.background{
+	background:url("campus-banner.jpg");
+	filter:blur(5px);
+	height:100%;
+}
