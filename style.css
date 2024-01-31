@@ -1,5 +1,11 @@
-.background{
-	background:url("campus-banner.jpg");
-	filter:blur(5px);
-	height:100%;
+@keyframes example{
+	from {background-color:red}
+	to {backgound-color:yellow}
+}
+div{
+	width:100px;
+	height:100px;
+	background-color:red;
+	animation-name:example;
+	animation-duration:4s;
 }
